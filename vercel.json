@@ -4,5 +4,10 @@
 			"source": "/.well-known/microsoft-identity-association",
 			"destination": "/.well-known/microsoft-identity-association.json"
 		}
-	]
+	],
+	"git": {
+		"deploymentEnabled": {
+			"staging": false
+		}
+	}
 }
