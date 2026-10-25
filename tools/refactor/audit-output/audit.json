@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-11T16:15:37+00:00",
-  "kitVersion": "1.18.0",
+  "generatedAt": "2026-10-25T10:41:07+00:00",
+  "kitVersion": "1.35.0",
   "score": {
-    "overall": 83.3,
+    "overall": 82.1,
     "groups": [
       {
         "group": "Standard baseline checks",
-        "score": 93.4,
-        "weight": 60
+        "score": 92.9,
+        "weight": 52
       },
       {
         "group": "Design pattern file count",
@@ -86,10 +86,9 @@
         "weight": 8,
         "zeroAt": 20,
         "unit": "",
-        "isMeasured": true,
-        "offenders": 0.25,
-        "measuredAgainst": 1,
-        "score": 98.8
+        "isMeasured": false,
+        "offenders": null,
+        "score": null
       },
       {
         "key": "comments",
@@ -111,9 +110,9 @@
         "zeroAt": 20,
         "unit": "thousand lines",
         "isMeasured": true,
-        "offenders": 36,
+        "offenders": 7,
         "measuredAgainst": 46.37,
-        "score": 96.1
+        "score": 99.2
       },
       {
         "key": "orphans",
@@ -135,9 +134,9 @@
         "zeroAt": 30,
         "unit": "thousand lines",
         "isMeasured": true,
-        "offenders": 435,
+        "offenders": 426,
         "measuredAgainst": 46.37,
-        "score": 68.7
+        "score": 69.4
       },
       {
         "key": "deepIndentation",
@@ -274,10 +273,7 @@
       "measurementIsHeuristic": true
     },
     "duplication": {
-      "clones": 13,
-      "duplicatedLines": 111,
-      "totalLines": 43656,
-      "duplicatedPercentage": 0.25,
+      "skipped": "jscpd is not installed (npm install -g jscpd)",
       "carriedFromBaseline": true
     },
     "naming": {
@@ -292,10 +288,10 @@
     "magicValues": {
       "inlineHexColours": 4,
       "inlineStyleAttributes": 2,
-      "repeatedStringLiterals": 30
+      "repeatedStringLiterals": 1
     },
     "prose": {
-      "longMemberChainLines": 435,
+      "longMemberChainLines": 426,
       "deeplyIndentedLines": 284,
       "overlongLines": 78,
       "measurementIsHeuristic": true
@@ -334,15 +330,15 @@
       "looserLimits": 0
     },
     "fileAreas": {
-      "totalFiles": 1388,
+      "totalFiles": 1402,
       "frontend": 505,
       "backend": 457,
-      "tooling": 106,
+      "tooling": 111,
       "shared": 98,
       "api": 64,
       "database": 60,
-      "tests": 44,
-      "docs": 40,
+      "tests": 50,
+      "docs": 43,
       "infrastructure": 14
     }
   },
@@ -815,7 +811,7 @@
       "summary": {
         "inlineHexColours": 4,
         "inlineStyleAttributes": 2,
-        "repeatedStringLiterals": 30
+        "repeatedStringLiterals": 1
       },
       "offenders": {
         "hexColours": [
@@ -848,124 +844,8 @@
         ],
         "repeatedLiterals": [
           {
-            "literal": "button",
-            "occurrences": 68
-          },
-          {
-            "literal": "flex flex-col gap-2",
-            "occurrences": 44
-          },
-          {
-            "literal": "flex flex-col gap-1",
-            "occurrences": 33
-          },
-          {
-            "literal": "flex flex-col gap-3",
-            "occurrences": 30
-          },
-          {
-            "literal": "text-sm text-chalk/60",
-            "occurrences": 30
-          },
-          {
-            "literal": "hidden",
-            "occurrences": 29
-          },
-          {
-            "literal": "text-xs text-chalk/50",
-            "occurrences": 26
-          },
-          {
-            "literal": "font-display text-3xl font-medium",
-            "occurrences": 24
-          },
-          {
-            "literal": "px-5 py-3 text-right",
-            "occurrences": 20
-          },
-          {
-            "literal": "submit",
-            "occurrences": 17
-          },
-          {
-            "literal": "max-w-prose text-chalk/70",
-            "occurrences": 17
-          },
-          {
-            "literal": "flex flex-col gap-4",
-            "occurrences": 16
-          },
-          {
-            "literal": "text-sm text-chalk/50",
-            "occurrences": 15
-          },
-          {
-            "literal": "font-display text-lg font-medium",
-            "occurrences": 14
-          },
-          {
-            "literal": "font-display text-xl font-medium",
-            "occurrences": 13
-          },
-          {
-            "literal": "flex items-center gap-2",
-            "occurrences": 13
-          },
-          {
-            "literal": "font-display text-sm text-chalk",
-            "occurrences": 12
-          },
-          {
-            "literal": "text-xs leading-relaxed text-chalk/60",
-            "occurrences": 12
-          },
-          {
-            "literal": "text-sm text-chalk/40",
-            "occurrences": 12
-          },
-          {
-            "literal": "text-chalk/80",
-            "occurrences": 11
-          },
-          {
-            "literal": "px-5 py-3",
-            "occurrences": 10
-          },
-          {
-            "literal": "px-5 py-3 text-right tabular-nums",
-            "occurrences": 10
-          },
-          {
-            "literal": "flex flex-col divide-y divide-hairline",
-            "occurrences": 10
-          },
-          {
-            "literal": "text-xs text-chalk/40",
-            "occurrences": 9
-          },
-          {
-            "literal": "text-chalk",
-            "occurrences": 9
-          },
-          {
-            "literal": "description",
-            "occurrences": 9
-          },
-          {
-            "literal": "text-chalk/70",
-            "occurrences": 8
-          },
-          {
-            "literal": "text-sm text-chalk/70",
-            "occurrences": 8
-          },
-          {
-            "literal": "min-h-0 flex-1 overflow-y-auto p-4",
-            "occurrences": 8
-          },
-          {
-            "literal": "question",
-            "occurrences": 7
+            "literal": "Unknown failure",
+            "occurrences": 4
           }
         ]
       }
@@ -973,7 +853,7 @@
     "prose": {
       "name": "prose",
       "summary": {
-        "longMemberChainLines": 435,
+        "longMemberChainLines": 426,
         "deeplyIndentedLines": 284,
         "overlongLines": 78,
         "measurementIsHeuristic": true
@@ -3289,15 +3169,15 @@
     "fileAreas": {
       "name": "fileAreas",
       "summary": {
-        "totalFiles": 1388,
+        "totalFiles": 1402,
         "frontend": 505,
         "backend": 457,
-        "tooling": 106,
+        "tooling": 111,
         "shared": 98,
         "api": 64,
         "database": 60,
-        "tests": 44,
-        "docs": 40,
+        "tests": 50,
+        "docs": 43,
         "infrastructure": 14
       },
       "offenders": [
@@ -3315,7 +3195,7 @@
         },
         {
           "area": "tooling",
-          "files": 106,
+          "files": 111,
           "sourceFiles": 0,
           "sourceLines": 0
         },
@@ -3339,13 +3219,13 @@
         },
         {
           "area": "tests",
-          "files": 44,
+          "files": 50,
           "sourceFiles": 40,
           "sourceLines": 1728
         },
         {
           "area": "docs",
-          "files": 40,
+          "files": 43,
           "sourceFiles": 0,
           "sourceLines": 0
         },
@@ -3821,74 +3701,10 @@
     "duplication": {
       "name": "duplication",
       "summary": {
-        "clones": 13,
-        "duplicatedLines": 111,
-        "totalLines": 43656,
-        "duplicatedPercentage": 0.25,
+        "skipped": "jscpd is not installed (npm install -g jscpd)",
         "carriedFromBaseline": true
       },
-      "offenders": [
-        {
-          "file": "src/lib/components/brain/flow/createFlowExperience.ts",
-          "duplicatedLineInstances": 15
-        },
-        {
-          "file": "src/lib/components/brain/regions/createRegionExperience.ts",
-          "duplicatedLineInstances": 15
-        },
-        {
-          "file": "src/lib/components/knowledge/editors/HybridPackEditor.svelte:typescript",
-          "duplicatedLineInstances": 15
-        },
-        {
-          "file": "src/lib/components/knowledge/editors/SchemaEditor.svelte:typescript",
-          "duplicatedLineInstances": 15
-        },
-        {
-          "file": "src/lib/components/brain/constellation/constellationPicking.ts",
-          "duplicatedLineInstances": 14
-        },
-        {
-          "file": "src/lib/components/brain/flow/flowPicker.ts",
-          "duplicatedLineInstances": 13
-        },
-        {
-          "file": "src/lib/components/brain/regions/regionPicker.ts",
-          "duplicatedLineInstances": 13
-        },
-        {
-          "file": "src/routes/chatbots/[chatbotId=uuid]/manage/memberActions.ts",
-          "duplicatedLineInstances": 12
-        },
-        {
-          "file": "src/lib/components/brain/constellation/constellationInteractions.ts",
-          "duplicatedLineInstances": 11
-        },
-        {
-          "file": "src/lib/components/brain/flow/flowInput.ts",
-          "duplicatedLineInstances": 11
-        },
-        {
-          "file": "src/lib/components/chatbots/AllowancesForm.svelte:typescript",
-          "duplicatedLineInstances": 10
-        },
-        {
-          "file": "src/lib/components/chatbots/TopUpForm.svelte:typescript",
-          "duplicatedLineInstances": 10
-        },
-        {
-          "file": "src/routes/knowledge-base/[knowledgeBaseId=uuid]/brains/[brainId]/items/[itemId]/+page.server.ts",
-          "duplicatedLineInstances": 10
-        },
-        {
-          "file": "src/routes/knowledge-base/[knowledgeBaseId=uuid]/brains/[brainId]/pages/[slug]/+page.server.ts",
-          "duplicatedLineInstances": 10
-        },
-        {
-          "file": "src/routes/knowledge-base/[knowledgeBaseId=uuid]/brains/[brainId]/expertiseBrainActions.ts",
-          "duplicatedLineInstances": 9
-        }
-      ]
+      "offenders": []
     }
   }
 }
