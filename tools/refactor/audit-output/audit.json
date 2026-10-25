@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T10:41:07+00:00",
-  "kitVersion": "1.35.0",
+  "generatedAt": "2026-10-25T18:37:56+00:00",
+  "kitVersion": "1.35.1",
   "score": {
     "overall": 82.1,
     "groups": [
@@ -273,8 +273,7 @@
       "measurementIsHeuristic": true
     },
     "duplication": {
-      "skipped": "jscpd is not installed (npm install -g jscpd)",
-      "carriedFromBaseline": true
+      "skipped": "jscpd is not installed (npm install -g jscpd)"
     },
     "naming": {
       "bannedAbbreviationHits": 8,
@@ -330,16 +329,16 @@
       "looserLimits": 0
     },
     "fileAreas": {
-      "totalFiles": 1402,
+      "totalFiles": 1417,
       "frontend": 505,
       "backend": 457,
-      "tooling": 111,
+      "tooling": 121,
       "shared": 98,
       "api": 64,
       "database": 60,
-      "tests": 50,
+      "tests": 54,
       "docs": 43,
-      "infrastructure": 14
+      "infrastructure": 15
     }
   },
   "details": {
@@ -3169,16 +3168,16 @@
     "fileAreas": {
       "name": "fileAreas",
       "summary": {
-        "totalFiles": 1402,
+        "totalFiles": 1417,
         "frontend": 505,
         "backend": 457,
-        "tooling": 111,
+        "tooling": 121,
         "shared": 98,
         "api": 64,
         "database": 60,
-        "tests": 50,
+        "tests": 54,
         "docs": 43,
-        "infrastructure": 14
+        "infrastructure": 15
       },
       "offenders": [
         {
@@ -3195,7 +3194,7 @@
         },
         {
           "area": "tooling",
-          "files": 111,
+          "files": 121,
           "sourceFiles": 0,
           "sourceLines": 0
         },
@@ -3219,7 +3218,7 @@
         },
         {
           "area": "tests",
-          "files": 50,
+          "files": 54,
           "sourceFiles": 40,
           "sourceLines": 1728
         },
@@ -3231,7 +3230,7 @@
         },
         {
           "area": "infrastructure",
-          "files": 14,
+          "files": 15,
           "sourceFiles": 0,
           "sourceLines": 0
         }
@@ -3701,8 +3700,7 @@
     "duplication": {
       "name": "duplication",
       "summary": {
-        "skipped": "jscpd is not installed (npm install -g jscpd)",
-        "carriedFromBaseline": true
+        "skipped": "jscpd is not installed (npm install -g jscpd)"
       },
       "offenders": []
     }
