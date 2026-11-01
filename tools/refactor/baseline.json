@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T07:00:58+00:00",
-  "kitVersion": "1.38.0",
+  "generatedAt": "2026-11-01T08:07:57+00:00",
+  "kitVersion": "1.39.0",
   "score": {
     "overall": 83.4,
     "groups": [
@@ -314,6 +314,7 @@
       "predictedFilesMissing": 0,
       "entities": 0,
       "entitiesOutOfRange": 0,
+      "entitiesAccepted": 0,
       "measurementIsHeuristic": true
     },
     "inventory": {
@@ -1900,6 +1901,7 @@
         "predictedFilesMissing": 0,
         "entities": 0,
         "entitiesOutOfRange": 0,
+        "entitiesAccepted": 0,
         "measurementIsHeuristic": true
       },
       "offenders": {
