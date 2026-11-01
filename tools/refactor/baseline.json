@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T20:47:36+00:00",
-  "kitVersion": "1.37.0",
+  "generatedAt": "2026-11-01T10:20:40+00:00",
+  "kitVersion": "1.40.0",
   "score": {
-    "overall": 82.1,
+    "overall": 83.4,
     "groups": [
       {
         "group": "Standard baseline checks",
-        "score": 92.9,
-        "weight": 52
+        "score": 93.6,
+        "weight": 60
       },
       {
         "group": "Design pattern file count",
@@ -86,9 +86,10 @@
         "weight": 8,
         "zeroAt": 20,
         "unit": "",
-        "isMeasured": false,
-        "offenders": null,
-        "score": null
+        "isMeasured": true,
+        "offenders": 0.26,
+        "measuredAgainst": 1,
+        "score": 98.7
       },
       {
         "key": "comments",
@@ -273,7 +274,10 @@
       "measurementIsHeuristic": true
     },
     "duplication": {
-      "skipped": "jscpd is not installed (npm install -g jscpd)"
+      "clones": 14,
+      "duplicatedLines": 126,
+      "totalLines": 47649,
+      "duplicatedPercentage": 0.26
     },
     "naming": {
       "bannedAbbreviationHits": 8,
@@ -310,6 +314,7 @@
       "predictedFilesMissing": 0,
       "entities": 0,
       "entitiesOutOfRange": 0,
+      "entitiesAccepted": 0,
       "measurementIsHeuristic": true
     },
     "inventory": {
@@ -329,14 +334,14 @@
       "looserLimits": 0
     },
     "fileAreas": {
-      "totalFiles": 1417,
+      "totalFiles": 1419,
       "frontend": 505,
       "backend": 457,
-      "tooling": 121,
+      "tooling": 122,
       "shared": 98,
       "api": 64,
       "database": 60,
-      "tests": 54,
+      "tests": 55,
       "docs": 43,
       "infrastructure": 15
     }
@@ -1896,6 +1901,7 @@
         "predictedFilesMissing": 0,
         "entities": 0,
         "entitiesOutOfRange": 0,
+        "entitiesAccepted": 0,
         "measurementIsHeuristic": true
       },
       "offenders": {
@@ -3168,14 +3174,14 @@
     "fileAreas": {
       "name": "fileAreas",
       "summary": {
-        "totalFiles": 1417,
+        "totalFiles": 1419,
         "frontend": 505,
         "backend": 457,
-        "tooling": 121,
+        "tooling": 122,
         "shared": 98,
         "api": 64,
         "database": 60,
-        "tests": 54,
+        "tests": 55,
         "docs": 43,
         "infrastructure": 15
       },
@@ -3194,7 +3200,7 @@
         },
         {
           "area": "tooling",
-          "files": 121,
+          "files": 122,
           "sourceFiles": 0,
           "sourceLines": 0
         },
@@ -3218,7 +3224,7 @@
         },
         {
           "area": "tests",
-          "files": 54,
+          "files": 55,
           "sourceFiles": 40,
           "sourceLines": 1728
         },
@@ -3700,9 +3706,73 @@
     "duplication": {
       "name": "duplication",
       "summary": {
-        "skipped": "jscpd is not installed (npm install -g jscpd)"
+        "clones": 14,
+        "duplicatedLines": 126,
+        "totalLines": 47649,
+        "duplicatedPercentage": 0.26
       },
-      "offenders": []
+      "offenders": [
+        {
+          "file": "src/lib/components/knowledge/dashboard/BrainBreadcrumb.svelte",
+          "duplicatedLineInstances": 29
+        },
+        {
+          "file": "src/lib/components/knowledge/dashboard/BrowseTitle.svelte",
+          "duplicatedLineInstances": 29
+        },
+        {
+          "file": "src/lib/components/brain/flow/createFlowExperience.ts",
+          "duplicatedLineInstances": 15
+        },
+        {
+          "file": "src/lib/components/brain/regions/createRegionExperience.ts",
+          "duplicatedLineInstances": 15
+        },
+        {
+          "file": "src/lib/components/knowledge/editors/HybridPackEditor.svelte",
+          "duplicatedLineInstances": 15
+        },
+        {
+          "file": "src/lib/components/knowledge/editors/SchemaEditor.svelte",
+          "duplicatedLineInstances": 15
+        },
+        {
+          "file": "src/lib/components/brain/constellation/constellationPicking.ts",
+          "duplicatedLineInstances": 14
+        },
+        {
+          "file": "src/lib/components/brain/flow/flowPicker.ts",
+          "duplicatedLineInstances": 13
+        },
+        {
+          "file": "src/lib/components/brain/regions/regionPicker.ts",
+          "duplicatedLineInstances": 13
+        },
+        {
+          "file": "src/routes/chatbots/[chatbotId=uuid]/manage/memberActions.ts",
+          "duplicatedLineInstances": 12
+        },
+        {
+          "file": "src/lib/components/brain/constellation/constellationInteractions.ts",
+          "duplicatedLineInstances": 11
+        },
+        {
+          "file": "src/lib/components/brain/flow/flowInput.ts",
+          "duplicatedLineInstances": 11
+        },
+        {
+          "file": "src/lib/components/chatbots/AllowancesForm.svelte",
+          "duplicatedLineInstances": 10
+        },
+        {
+          "file": "src/lib/components/chatbots/TopUpForm.svelte",
+          "duplicatedLineInstances": 10
+        },
+        {
+          "file": "src/routes/knowledge-base/[knowledgeBaseId=uuid]/brains/[brainId]/items/[itemId]/+page.server.ts",
+          "duplicatedLineInstances": 10
+        }
+      ]
     }
   }
 }

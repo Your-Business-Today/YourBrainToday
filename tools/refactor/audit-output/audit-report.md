@@ -1,21 +1,21 @@
 # Refactor audit
 
-Generated 2026-10-29 20:47 UTC.
+Generated 2026-11-01 10:20 UTC.
 
 ## Headline
 
-**Code quality score 82.1%.** **0 of 1,150 source files are over the 100-line limit (0.0%)**; the worst file is 0 lines.
+**Code quality score 83.4%.** **0 of 1,150 source files are over the 100-line limit (0.0%)**; the worst file is 0 lines.
 
 ## Code quality score
 
 | Element | Reading | Score | Weight | 0% at |
 | --- | --- | --- | --- | --- |
-| **Standard baseline checks** | | **92.9%** | **52** | |
+| **Standard baseline checks** | | **93.6%** | **60** | |
 | Files over the line limit | 0 in 1150 files | 100.0% | 10 | 50% of files |
 | Worst file, in limits over | 0 | 100.0% | 5 | 9 |
 | Functions over the line limit | 59 in 1727 functions | 86.3% | 8 | 25% of functions |
 | Else blocks | 1 in 1833 branches | 99.9% | 5 | 50% of branches |
-| Duplication % | not measured | not measured | — | 20 |
+| Duplication % | 0.26 | 98.7% | 8 | 20 |
 | Explanatory comment lines | 259 in 46.37 thousand lines | 88.8% | 4 | 50 per thousand lines |
 | Inline magic values | 7 in 46.37 thousand lines | 99.2% | 4 | 20 per thousand lines |
 | Orphan components and functions | 0 in 1965 components and functions | 100.0% | 4 | 10% of components and functions |
@@ -42,14 +42,14 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | --- | --- | --- | --- |
 | frontend | 505 | 492 | 22,709 |
 | backend | 457 | 457 | 16,004 |
-| tooling | 121 | 0 | 0 |
+| tooling | 122 | 0 | 0 |
 | shared | 98 | 97 | 3,406 |
 | api | 64 | 64 | 2,519 |
 | database | 60 | 0 | 0 |
-| tests | 54 | 40 | 1,728 |
+| tests | 55 | 40 | 1,728 |
 | docs | 43 | 0 | 0 |
 | infrastructure | 15 | 0 | 0 |
-| **whole repository** | **1,417** | **1,150** | **46,366** |
+| **whole repository** | **1,419** | **1,150** | **46,366** |
 
 ## Summary
 
@@ -59,29 +59,29 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | functionShape | limit: 30, functionsOverLimit: 59, totalFunctions: 1727, elseBlocks: 1, ifBlocks: 1833, measurementIsHeuristic: True |
 | functionNames | overlongFunctionNames: 4, maxWords: 5, maxLength: 40 |
 | accessorNames | gluedAccessorNames: 7, measurementIsHeuristic: True |
-| duplication | skipped: jscpd is not installed (npm install -g jscpd) |
+| duplication | clones: 14, duplicatedLines: 126, totalLines: 47649, duplicatedPercentage: 0.26 |
 | naming | bannedAbbreviationHits: 8, unprefixedBooleans: 2 |
 | comments | explanatoryCommentLines: 259, filesWithComments: 101, taskMarkers: 0 |
 | magicValues | inlineHexColours: 4, inlineStyleAttributes: 2, repeatedStringLiterals: 1 |
 | prose | longMemberChainLines: 426, deeplyIndentedLines: 284, overlongLines: 78, measurementIsHeuristic: True |
 | conditions | tangledConditionLines: 50, literalComparisonLines: 251, measurementIsHeuristic: True |
 | orphans | orphanFunctions: 0, functionsExamined: 1727 |
-| designPatterns | roleFamilies: 66, predictedFiles: 77, predictedFilesMissing: 0, entities: 0, entitiesOutOfRange: 0, measurementIsHeuristic: True |
+| designPatterns | roleFamilies: 66, predictedFiles: 77, predictedFilesMissing: 0, entities: 0, entitiesOutOfRange: 0, entitiesAccepted: 0, measurementIsHeuristic: True |
 | inventory | pages: 35, components: 238, orphanComponents: 0, averagePageLines: 37 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 80, limitedColumns: 0, writeDoors: 58, unvalidatedDoors: 58, looserLimits: 0 |
-| fileAreas | totalFiles: 1417, frontend: 505, backend: 457, tooling: 121, shared: 98, api: 64, database: 60, tests: 54, docs: 43, infrastructure: 15 |
+| fileAreas | totalFiles: 1419, frontend: 505, backend: 457, tooling: 122, shared: 98, api: 64, database: 60, tests: 55, docs: 43, infrastructure: 15 |
 
 ## Against the baseline
 
 | Ratcheted figure | Baseline | Now | Verdict |
 | --- | --- | --- | --- |
-| code quality score | 82.1% | 82.1% | — |
+| code quality score | 83.4% | 83.4% | — |
 | fileLength.filesOverLimit | 0 | 0 | held |
 | fileLength.worstFileLines | 0 | 0 | held |
 | functionShape.functionsOverLimit | 59 | 59 | held |
 | functionShape.elseBlocks | 1 | 1 | held |
-| duplication.duplicatedPercentage | None | None | — |
+| duplication.duplicatedPercentage | 0.26 | 0.26 | held |
 | comments.explanatoryCommentLines | 259 | 259 | held |
 | magicValues.inlineHexColours | 4 | 4 | held |
 | inventory.orphanComponents | 0 | 0 | held |
