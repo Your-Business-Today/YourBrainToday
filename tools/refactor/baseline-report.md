@@ -1,6 +1,6 @@
 # Refactor audit
 
-Generated 2026-11-01 07:00 UTC.
+Generated 2026-11-01 08:07 UTC.
 
 ## Headline
 
@@ -66,7 +66,7 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | prose | longMemberChainLines: 426, deeplyIndentedLines: 284, overlongLines: 78, measurementIsHeuristic: True |
 | conditions | tangledConditionLines: 50, literalComparisonLines: 251, measurementIsHeuristic: True |
 | orphans | orphanFunctions: 0, functionsExamined: 1727 |
-| designPatterns | roleFamilies: 66, predictedFiles: 77, predictedFilesMissing: 0, entities: 0, entitiesOutOfRange: 0, measurementIsHeuristic: True |
+| designPatterns | roleFamilies: 66, predictedFiles: 77, predictedFilesMissing: 0, entities: 0, entitiesOutOfRange: 0, entitiesAccepted: 0, measurementIsHeuristic: True |
 | inventory | pages: 35, components: 238, orphanComponents: 0, averagePageLines: 37 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 80, limitedColumns: 0, writeDoors: 58, unvalidatedDoors: 58, looserLimits: 0 |
@@ -76,12 +76,12 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 
 | Ratcheted figure | Baseline | Now | Verdict |
 | --- | --- | --- | --- |
-| code quality score | 82.1% | 83.4% | — |
+| code quality score | 83.4% | 83.4% | — |
 | fileLength.filesOverLimit | 0 | 0 | held |
 | fileLength.worstFileLines | 0 | 0 | held |
 | functionShape.functionsOverLimit | 59 | 59 | held |
 | functionShape.elseBlocks | 1 | 1 | held |
-| duplication.duplicatedPercentage | None | 0.26 | — |
+| duplication.duplicatedPercentage | 0.26 | 0.26 | held |
 | comments.explanatoryCommentLines | 259 | 259 | held |
 | magicValues.inlineHexColours | 4 | 4 | held |
 | inventory.orphanComponents | 0 | 0 | held |
