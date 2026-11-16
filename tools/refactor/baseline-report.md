@@ -1,6 +1,6 @@
 # Refactor audit
 
-Generated 2026-11-05 22:10 UTC.
+Generated 2026-11-16 12:18 UTC.
 
 ## Headline
 
@@ -34,7 +34,7 @@ Generated 2026-11-05 22:10 UTC.
 | **Input validation** | | **0.0%** | **8** | |
 | Doors that write without checking their input against the columns | 58 in 58 write doors | 0.0% | 8 | 50% of write doors |
 
-Each element scores 100% with no offenders and falls in a straight line to 0% when its offenders, measured against the size of the codebase, reach the figure in the last column. The score is the weighted average of the elements that could be measured; an element that could not be measured lends its weight to the rest. Weights and zero points are set in `tools/refactor/rules.json` under `score.elements`. The offenders behind every reading are in `tools/refactor/audit-output/audit.json`.
+Each element scores 100% with no offenders and falls in a straight line to 0% when its offenders, measured against the size of the codebase, reach the figure in the last column. The score is the weighted average of the elements that could be measured; an element that could not be measured lends its weight to the rest. Weights and zero points are set in `tools/refactor/rules.json` under `score.elements`. The offenders behind every reading are in `tools/refactor/audit-output/audit.json` once the audit has run there; git ignores it.
 
 ## The repository by area
 
@@ -42,14 +42,14 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | --- | --- | --- | --- |
 | frontend | 505 | 492 | 22,709 |
 | backend | 457 | 457 | 16,004 |
-| tooling | 123 | 0 | 0 |
+| tooling | 145 | 0 | 0 |
 | shared | 98 | 97 | 3,406 |
 | api | 64 | 64 | 2,519 |
+| tests | 61 | 40 | 1,728 |
 | database | 60 | 0 | 0 |
-| tests | 55 | 40 | 1,728 |
-| docs | 43 | 0 | 0 |
+| docs | 42 | 0 | 0 |
 | infrastructure | 15 | 0 | 0 |
-| **whole repository** | **1,420** | **1,150** | **46,366** |
+| **whole repository** | **1,447** | **1,150** | **46,366** |
 
 ## Summary
 
@@ -70,7 +70,7 @@ Each element scores 100% with no offenders and falls in a straight line to 0% wh
 | inventory | pages: 35, components: 238, orphanComponents: 0, averagePageLines: 37 |
 | siteDefinition | skipped: no siteDefinition catalogue in rules.json |
 | inputValidation | schemaTables: 80, limitedColumns: 0, writeDoors: 58, unvalidatedDoors: 58, looserLimits: 0 |
-| fileAreas | totalFiles: 1420, frontend: 505, backend: 457, tooling: 123, shared: 98, api: 64, database: 60, tests: 55, docs: 43, infrastructure: 15 |
+| fileAreas | totalFiles: 1447, frontend: 505, backend: 457, tooling: 145, shared: 98, api: 64, tests: 61, database: 60, docs: 42, infrastructure: 15 |
 
 ## Against the baseline
 
